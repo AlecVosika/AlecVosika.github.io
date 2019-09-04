@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {},
+	"launch": {
+		"configurations": [
+			{
+				"type": "java",
+				"name": "CodeLens (Launch) - Tree234App",
+				"request": "launch",
+				"cwd": "${workspaceFolder}",
+				"console": "internalConsole",
+				"stopOnEntry": false,
+				"mainClass": "sr.Tree234App",
+				"args": "",
+				"projectName": "Tree234"
+			},
+			{
+				"type": "java",
+				"name": "CodeLens (Launch) - MainController",
+				"request": "launch",
+				"cwd": "C:\\CodeRepository\\StudentRecords",
+				"console": "internalConsole",
+				"stopOnEntry": false,
+				"mainClass": "sr.Tree234App",
+				"args": "",
+				"projectName": "Tree234"
+			}
+		]
+	}
+}
