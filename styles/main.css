@@ -56,6 +56,10 @@ nav ul li a {
     font-size: 30px;
 }
 
+a {
+  color: black;
+}
+
 .x:hover {
   background-color: grey;
 }
@@ -69,7 +73,7 @@ p {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 80px;
 }
 
 h2 {
@@ -102,11 +106,15 @@ td > p {
     margin: 1% 0% 3% 0%;
 }
 
-#section-3 {}
+#section-2 > p {
+    margin-top: .5rem;
+    padding-left: 1em;
+}
 
-#section-4 {}
-
-#section-5 {}
+#section-3 > p{
+    margin-top: .5rem;
+    padding-left: 1em;
+}
 
 #section-4 > h3 {
     font-size: 20px;
@@ -116,9 +124,18 @@ td > p {
 
 #section-4 > p {
     margin-top: .5rem;
+    padding-left: 2em;
 }
 
-#section-6 {}
+#section-5 > p {
+    margin-top: .5rem;
+    padding-left: 2em;
+}
+
+#section-6 > p {
+    margin-top: .5rem;
+    padding-left: 2em;
+}
 
 .grid-blank {
     grid-column: 3;
@@ -129,7 +146,7 @@ td > p {
 .grid-footer {
     grid-column: 1 / 4;
     grid-row: 3;
-    background: rgba(0, 0, 0, 0.849);
+    background-color: black;
     padding: 1rem 1rem;
     text-align: center;
     color: white
