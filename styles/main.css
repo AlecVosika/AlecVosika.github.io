@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
 }
@@ -12,9 +15,6 @@ body {
 .grid-header {
     grid-column: 1 / 4;
     grid-row: 1;
-/*
-    background: rgb(77, 0, 121);
-*/
     background-image: url("../images/image.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,7 +49,7 @@ nav ul li a {
     padding: 5% 5%;
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 190%;
 }
 
 a {
