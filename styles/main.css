@@ -101,12 +101,8 @@ main a:visited {
 }
 
 #section-1 > h2 {
-    margin: 1% 0% 3% 0%;
+    margin: 10px 0% 20px 0%;
     font-size: 40px;
-}
-
-#section-2 > h2 {
-    margin: 1% 0% 3% 0%;
 }
 
 #section-2 > p {
