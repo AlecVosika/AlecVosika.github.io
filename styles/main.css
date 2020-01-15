@@ -26,7 +26,7 @@ h2 {
 
 h1 {
     padding-top: 400px;
-    text-align:center;
+    text-align: center;
     font-size: 80px;
 }
 
@@ -106,7 +106,7 @@ table td.shrink {
     padding-left: 1em;
 }
 
-#section-3 > p{
+#section-3 > p {
     margin-top: .5rem;
     padding-left: 1em;
 }
@@ -164,6 +164,11 @@ footer {
             "footer";
         grid-template-columns: 1fr;
         grid-template-rows: auto minmax(75px, auto) 1fr minmax(75px, auto) auto;
+    }
+
+    h1 {
+        padding-top: 350px;
+        font-size: 80px;
     }
 
     header {
