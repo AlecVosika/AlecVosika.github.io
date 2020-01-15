@@ -93,7 +93,10 @@ table td.shrink {
 }
 
 a {
-  color: black;
+  color: #000000;
+}
+a:visited {
+  color: #000000;
 }
 
 #section-1 > h2 {
