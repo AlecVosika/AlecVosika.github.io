@@ -48,12 +48,12 @@ header {
     width: auto;
     height: 110vh;
     z-index: -1;
-    color: white;
+    color: #ffffff;
 }
 
 nav {
     grid-area: nav;
-    background: black;
+    background: #000000;
 }
 
 nav ul {
@@ -68,18 +68,18 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     font-size: 180%;
 }
 
 .x:hover {
-    background-color: grey;
+    background-color: #808080;
 }
 
 main {
     grid-area: content;
-    background: white;
+    background: #ffffff;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -90,6 +90,10 @@ td > p {
 
 table td.shrink {
     width: 30%;
+}
+
+a {
+  color: black;
 }
 
 #section-1 > h2 {
@@ -134,7 +138,7 @@ table td.shrink {
 
 aside {
     grid-area: side;
-    background: white;
+    background: #ffffff;
 }
 
 .hidden {
@@ -142,7 +146,7 @@ aside {
 }
 
 footer {
-    background: black;
+    background: #000000;
     grid-area: footer;
     text-align: center;
 }
@@ -188,10 +192,10 @@ footer {
 
     nav ul li a {
         display: block;
-        color: white;
+        color: #ffffff;
         text-decoration: none;
         font-size: 180%;
-        border: 1px solid white;
+        border: 1px solid #ffffff;
         text-align: center;
 
     }
