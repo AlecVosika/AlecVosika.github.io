@@ -1,7 +1,7 @@
 html {
     background: #000000;
     font-family: Lucida Console;
-    min-height: 100%;
+    overflow: hidden;
 }
 
 body {
