@@ -1,0 +1,98 @@
+html {
+
+}
+
+html,
+body,
+h1,
+p {
+    scroll-behavior: smooth;
+    font-family: Lucida Console;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100vh auto auto;
+    grid-template-areas:
+        "image   image"
+        "nav     main"
+        "footer  footer";
+
+}
+
+.image {
+    display: inline-flex;
+    grid-area: image;
+    background-image: url("../images/image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    align-items: center;
+
+}
+
+.nav {
+    grid-area: nav;
+    background: black;
+}
+
+.main {
+    grid-area: main;
+    background: red;
+}
+
+.footer {
+    grid-area: footer;
+    display: inline-block;
+    display: -moz-inline-box;
+    background: green;
+    text-align: center;
+
+}
+
+.name {
+    grid-area: image;
+    display: block;
+    padding: 20vh 0 0 4vw;
+    font-size: 80px;
+    color: black;
+    text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;
+
+}
+
+.major {
+    grid-area: image;
+    display: block;
+    padding: 10vh 0 50vh 40vw;
+    font-size: 80px;
+    color: black;
+    text-shadow: 4px 0 0 #fff, -4px 0 0 #fff, 0 4px 0 #fff, 0 -4px 0 #fff, 2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;
+}
+
+
+nav {
+    grid-area: nav;
+    height:100%;
+    background: #000000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 180%;
+}
